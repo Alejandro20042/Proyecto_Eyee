@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
+import RegistroComponent from '../registro/registro.component';
 
 @Component({
   selector: 'app-login',
@@ -9,12 +10,12 @@ import { Router, RouterModule } from '@angular/router';
   styleUrl: './login.component.css'
 })
 
-export class LoginComponent {
+export default class LoginComponent {
 
   constructor(private router: Router) { }
 
-  navigateToRegistro() {
-    this.router.navigate(['/registro']);
-  }
+  // navigateToRegistro() {
+  //   this.router.navigate(['/registro']);
+  // }
 
 }

@@ -1,8 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
-import { LoginComponent } from './login/login.component';
-import  RegistroComponent from './registro/registro.component';
+import  LoginComponent  from './dashboard/login/login.component';
+import  RegistroComponent from './dashboard/registro/registro.component';
 
 @NgModule({
   declarations: [
@@ -12,8 +12,7 @@ import  RegistroComponent from './registro/registro.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    LoginComponent,
-    RegistroComponent
+    
   ],
   providers: [],
   bootstrap: [],
